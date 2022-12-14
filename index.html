@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Auxiliar de Nutrição</title>
+    <style>
+
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+        }
+        #cabecalho{
+            height: 150px;
+            width: 580px;
+            background-color: rgb(59, 255, 33);
+            margin-left: 650px;
+            margin-top: 120px;
+            padding: 10px;
+            text-align: center;
+        }
+
+
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: rgb(224, 255, 224);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+    .nav_tabs{
+        width: 600px;
+        height: 550px;
+        margin: 100px auto;
+        background-color: rgb(197, 255, 195);
+        position: relative;
+    }
+
+    .nav_tabs ul{
+        list-style: none;
+    }
+
+    .nav_tabs ul li{
+        float: left;
+    }
+
+    .nav_tabs label{
+        width: 100px;
+        padding: 25px;
+        background-color: greenyellow;
+        display: block;
+        color: blueviolet;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .rd_tabs:checked ~ label{
+        background-color: aliceblue;
+    }
+    .rd_tabs{
+        display: none;
+    }
+
+    .content{
+        border-top: 5px solid green;
+        background-color: rgb(197, 255, 195);
+        display: none;
+        position: absolute;
+        height: 320px;
+        width: 600px;
+        left: 0;
+    }
+
+    .content article{
+        padding: 10px;
+    }
+    
+    .rd_tabs:checked ~ .content{
+        display: block;
+    }
+    
+
+    </style>
+</head>
+<body>
+    <div id="cabecalho">
+        <h1> Seu Auxiliar de Nutrição </h1> 
+        &nbsp;
+<p> Olá! Tudo bom com você? Hoje eu serei o <strong> Seu Axiliar de Nutrição. </strong> Neste site iremos ajudar a você, aluno ou profissional recém formado da área de nutrição, a seguir os passos da montagem de um plano alimentar. </p>
+&nbsp;
+<p> Este projeto foi desenvolvido por João Marcos Macedo, Lucivânia e Divino Lopes para o curso de <strong> Tecnologia em Análise e Desenvolvimento de Sistemas. </strong> </p>
+    </div>
+    <div id="conteudo">
+            <nav class="nav_tabs">
+                <ul>
+                    <li>
+                        <input type="radio" name="tabs" class="rd_tabs" id="tab1"
+                        checked>
+                        <label for="tab1">Cálculo da Taxa Metabólica Basal</label>
+                        <div class="content">
+                            <article>
+                                <h2> Cálculo Energético </h2>
+                                &nbsp;
+                                <h3> Cálculo da TMB</h3>
+                                &nbsp;
+        <p> Antes mais nada é preciso calcular qual é a necessidade de calorias que o seu corpo precisa pra funcionar bem e manter o peso. A partir daí, conseguimos distribuir os macronutrientes da melhor maneira. Para isso, existe uma fórmula que resulta no gasto do metabolismo em repouso e que é multiplicada pelo fator de atividade física. </p>
+        &nbsp;
+        <h3> Fórmulas para calcular a TMB </h3>
+        &nbsp;
+        <p> <strong> Fórmula para homens: </strong> TMB = fator da taxa de atividade x {66 + [(13,7 x Peso(kg)) + ( 5 x Altura(cm)) – (6,8 x Idade(anos))]} </p>
+        &nbsp;
+        <p> <strong> Fórmula para mulheres: </strong> TMB = fator da taxa de atividade x {655 + [(9,6 x Peso(kg)) + (1,8 x Altura(cm)) – (4,7 x Idade(anos))]} </p>
+        &nbsp;
+        <p>Após isso, teremos o resultado em kcal. Tendo a TMB em mãos, podemos calcular o GET na próxima janela.</p>
+        
+        
+                            </article>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="tabs" class="rd_tabs" id="tab2">
+                        <label for="tab2">Cálculo do GET e do VET</label>
+                        <div class="content">
+                            <article>
+                                <h2> Cálculo do GET </h2>
+&nbsp;
+<p> Para calcular o GET (Gasto Energético Total) é bem simples. Multiplicaremos a TMB pelo Fator Atividade e obeteremos o resultado em kcal. (GET = TMB x FA) </p>
+<p> E aí vem a dúvida: onde encontro o Fator Atividade? A seguir você pode ter uma referência para definir o FA:</p>
+&nbsp;
+<p>Sedentário = 1,2</p>
+<p>Atividade leve = 1,38</p>
+<p>Atividade moderada = 1,55</p>
+<p>Atividade alta = 1,73</p>
+<p>Avitidade muito alta = 1,9</p>
+&nbsp;
+<h2> Cálculo do VET </h2>
+&nbsp;
+<p> O VET (Valor Energético Total) corresponde ao valor total de calorias em uma dieta. Para defini-lo, é necessário saber o objetivo a ser alcançado, e então usar valores como referência. </p>
+&nbsp;
+<p>Para emagrecimento: GET -300 kcal</p>
+<p>Para manter o peso: GET = VET</p>
+<p>Para ganho de peso: GET +300kcal</p>
+<p>  </p>
+
+<p>Esses são apenas exemplos de valores para serem usados como referência. O cálculo a ser feito vai depender da opinião do profissional.</p>
+                            </article>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="tabs" class="rd_tabs" id="tab3">
+                        <label for="tab3">Divisão de Macronutrientes</label>
+                        <div class="content">
+                            <article>
+                                <h2> Distribuição dos macronutrientes </h2>
+&nbsp;
+<h3> Distribuindo os macronutrientes </h3>
+&nbsp;
+<p> Após o cálculo do VET e a análise do profissional sobre o caso do paciente, ele pode definir uma porcentagem na dieta para cada macronutriente seguindo as recomendações: </p>
+&nbsp;
+<p>Entre 55 a 75% de carboidrato;</p>
+<p>De 10 a 15% para proteínas;</p>
+<p>Até 30% de lipídios.</p>
+&nbsp;
+<h3> Valor dos macronutrientes </h3>
+&nbsp;
+<p> Cada um desses macronutrientes possuí um valor calórico diferente, sendo assim conseguimos transformar as calorias em gramas totais para o plano alimentar, como veremos a seguir:</p>
+&nbsp;
+<p>Carboidratos: 4kcal = 1g</p>
+<p>Proteínas: 4kcal = 1g</p>
+<p>Lipídios: 4kcal = 1g</p>
+&nbsp;
+<p>Após a definição das quantidades de cada macronutriente, o profissional pode distribuir isso de acordo com o valor de cada alimento que estará presente no plano alimentar. A tabela TACO e as recomendações de ingestão de micronutrientes serão essenciais para essa etapa.</p>
+
+                            </article>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="tabs" class="rd_tabs" id="tab4">
+                        <label for="tab4">Tabela TACO e DRIs</label>
+                        <div class="content">
+                            <article>
+                                <h2> Tabela TACO </h2>
+&nbsp;
+<p> A Tabela TACO é um material bem completo, com a composição nutricional dos alimentos mais consumidos no Brasil. Os alimentos mais consumidos no nosso país são mapeados e estratificados por meio de análises físico-químicas, indicando os componentes e nutrientes presentes. </p>
+<p> A tabela indica desde a quantidade dos macronutrientes em cada alimento até a quantidade de micronutrientes, como vitaminas e minerais.</p>
+&nbsp;
+<p>Link para a Tabela TACO: <address>   https://www.cfn.org.br/wp-content/uploads/2017/03/taco_4_edicao_ampliada_e_revisada.pdf </address> </p>
+&nbsp;
+<h2> Recomendações de Ingestão </h2>
+&nbsp;
+<p> Sabendo qual é a quantidade de nutrientes presente em cada alimento, o profissional pode seguir as DRIS(Dietary Reference Intakes) para ter um parâmetro da necessidade nutricional de cada indivíduo, de acordo com fatores como sexo e idade. </p>
+&nbsp;
+<p>• As	DRIs	incluem a	EAR (Estimated	Average	Requirement),	RDA (Recommended Dietary Allowance),	a	AI (Adequate	Intake)	e	a	UL (Tolerable	Upper	Intake	Level).</p>
+
+                            </article>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        
+        
+        
+    </div>
+
+</body>
+</html>
