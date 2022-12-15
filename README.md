@@ -17,7 +17,7 @@ O projeto é um site destinado a alunos ou profissionais recém formados da áre
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina De Paiva Carvalho
 
 ## Instruções de utilização
 
