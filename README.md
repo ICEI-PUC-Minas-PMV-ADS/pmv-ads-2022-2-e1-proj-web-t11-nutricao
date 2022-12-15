@@ -6,13 +6,13 @@
 
 `SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto é um site destinado a alunos ou profissionais recém formados da área de nutrição, e o objetivo é ajudá-los com os passos a serem seguidos em uma montagem de plano alimentar.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
+* João Marcos Macedo Gonçalves
+* Lucivânia Silva Carneiro de Cintra
+* Divino Marcio de Souza Junior
 * Nome completo do aluno 4
 
 ## Orientador
