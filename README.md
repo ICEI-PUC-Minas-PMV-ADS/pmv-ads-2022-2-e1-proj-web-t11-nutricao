@@ -1,10 +1,10 @@
-# TÍTULO DO PROJETO
+# Seu Auxiliar de Nutrição
 
-`CURSO`
+`Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`Eixo 1`
 
 O projeto é um site destinado a alunos ou profissionais recém formados da área de nutrição, e o objetivo é ajudá-los com os passos a serem seguidos em uma montagem de plano alimentar.
 
