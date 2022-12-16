@@ -1,15 +1,38 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Nesta seção são apresentadas as funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentados na sequência.
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+Visualização do Conteúdo (RF-01, RF-02 e RF-03)
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+
+Menu de navegação (RF-04 e RF-05)
+
+Cabeçalho (RF-06)
+
+
+
+Links externos (RF-07)
+
+
+
+Requisitos atendidos
+RF-01 - O site deve apresentar imagens descritivas sobre o assunto tratado.
+RF-02 - O site deve apresentar uma informação sobre cada macronutriente
+RF-03 - O site deve permitir ao usuário visualizar os textos completos com todos os detalhes da publicação
+RF-04 - O site deve oferecer um menu adicional que permita ao usuário selecionar diferentes seções para leitura.
+RF-05 - O site deve ter um layout de fácil utilização
+RF-06 - O site deve conter informações sobre o desenvolvimento do projeto
+RF-07 - O site deve conter links para conteúdos externos 
+
+Artefatos da funcionalidade
+index.html
+tabelataco.jpg
+
+Instruções de acesso
+Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+Descompacte o arquivo em uma pasta específica;
+Abra o Visual Studio Code e execute o Live Server;
+Abra um navegador de Internet e informe a seguinte URL: 
+
+
