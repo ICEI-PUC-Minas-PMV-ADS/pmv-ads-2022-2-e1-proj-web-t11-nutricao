@@ -16,15 +16,14 @@ Link de Acesso: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
 A equipe está organizada da seguinte maneira:
+
 Scrum Master: João Marcos Macedo
+
 Product Owner: João Marcos Macedo
-Equipe de Desenvolvimento
-João Marcos Macedo
-Lucivânia Silva
-Divino Marcio
-Equipe de Design
-João Marcos Macedo
-Lucivânia Silva
+
+Equipe de Desenvolvimento: João Marcos Macedo,  Lucivânia Silva, Divino Marcio
+
+Equipe de Design: João Marcos Macedo, Lucivânia Silva
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Project estruturado com as seguintes listas: 
 
