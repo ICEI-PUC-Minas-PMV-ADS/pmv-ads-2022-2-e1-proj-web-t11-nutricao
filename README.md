@@ -13,7 +13,6 @@ O projeto é um site destinado a alunos ou profissionais recém formados da áre
 * João Marcos Macedo Gonçalves
 * Lucivânia Silva Carneiro de Cintra
 * Divino Marcio de Souza Junior
-* Nome completo do aluno 4
 
 ## Orientador
 
