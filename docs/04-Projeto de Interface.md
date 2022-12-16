@@ -15,5 +15,7 @@ Figura 1 - Fluxo utilização do site
 Na estrutura do site, existem 3 grandes blocos, descritos a seguir. São eles:
 
 Cabeçalho - apresenta o título e informações sobre o projeto;
+
 Barra de navegação - apresenta a seleção do conteúdo a ser mostrado;
+
 Conteúdo - apresenta o conteúdo selecionado.
