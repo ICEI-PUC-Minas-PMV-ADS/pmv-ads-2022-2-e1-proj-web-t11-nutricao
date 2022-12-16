@@ -1,19 +1,85 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Os requisitos para realização dos testes de software são:
+Site publicado na Internet
+Navegador da Internet - Chrome, Firefox ou Edge
+Conectividade de Internet para acesso às plataformas (APISs)
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+Caso de Teste
+CT-01 - Visualização do Conteúdo
+Requisitos Associados
+RF-01 - O site deve apresentar imagens descritivas sobre o assunto tratado.
+RF-02 - O site deve apresentar uma informação sobre cada macronutriente
+RF-03 - O site deve permitir ao usuário visualizar os textos completos com todos os detalhes da publicação
+RF-07 - O site deve conter links para conteúdos externos 
+Objetivo do Teste
+Verificar se o conteúdo está sendo exibido corretamente
+Passos
+1) Acessar o Navegador
+2) Informar o endereço do Site
+3) Visualizar a página principal
+Critérios de Êxito
+O conteúdo ser exibido corretamente na tela do usuário.
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+
+
+Caso de Teste
+CT-02 - Menu de navegação
+Requisitos Associados
+RF-04 - O site deve oferecer um menu adicional que permita ao usuário selecionar diferentes seções para leitura.
+RF-05 - O site deve ter um layout de fácil utilização
+
+
+
+Objetivo do Teste
+Verificar se o menu está entregando o conteúdo corretamente ao usuário.
+Passos
+1) Acessar o Navegador
+2) Informar o endereço do Site
+3) Visualizar a página principal
+4) Clicar em uma notícia
+Critérios de Êxito
+O menu fazer com que o conteúdo mostrado ao usuário seja exatamente o que ele selecionou.
+
+
+
+
+
+
+
+
+Caso de Teste
+CT-03 - Cabeçalho e Layout
+Requisitos Associados
+RF-06 - O site deve conter informações sobre o desenvolvimento do projeto
+Objetivo do Teste
+Verificar se o cabeçalho está exibindo corretamente informações adicionais sobre o projeto.
+Passos
+1) Acessar o Navegador
+2) Informar o endereço do Site
+3) Visualizar a página principal
+4) Clicar em uma notícia
+Critérios de Êxito
+O conteúdo é exibido corretamente na tela.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
