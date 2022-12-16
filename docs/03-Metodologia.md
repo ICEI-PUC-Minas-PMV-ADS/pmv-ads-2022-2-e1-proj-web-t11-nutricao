@@ -6,7 +6,9 @@
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
 Ambiente: Repositório de código fonte
+
 Plataforma: GitHub
+
 Link de Acesso: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t11-nutricao
 
 ## Gerenciamento de Projeto
